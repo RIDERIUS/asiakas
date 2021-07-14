@@ -12,7 +12,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 from rich.live import Live
 
-VERSION = '1.8.0.dev3'
+VERSION = '1.8.0.dev4'
 console = Console()
 
 # pylint settings:
@@ -32,17 +32,17 @@ def getkey():
         import termios
         file_descriptor = sys.stdin.fileno()
 
-        oldterm = termios.tcgetattr(file_descriptor)
-        newattr = termios.tcgetattr(file_descriptor)
-        newattr[3] = newattr[3] & ~termios.ICANON & ~termios.ECHO
-        termios.tcsetattr(file_descriptor, termios.TCSANOW, newattr)
+        old_term_attr = termios.tcgetattr(file_descriptor)
+        new_term_attr = termios.tcgetattr(file_descriptor)
+        new_term_attr[3] = new_term_attr[3] & ~termios.ICANON & ~termios.ECHO
+        termios.tcsetattr(file_descriptor, termios.TCSANOW, new_term_attr)
 
         try:
             result = sys.stdin.read(1)
         except IOError:
             pass
         finally:
-            termios.tcsetattr(file_descriptor, termios.TCSAFLUSH, oldterm)
+            termios.tcsetattr(file_descriptor, termios.TCSAFLUSH, old_term_attr)
 
     return result
 
