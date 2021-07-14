@@ -2,15 +2,19 @@
 
 ## Version 1.8.0
 
-### Version 1.8.0-snaphot3
+### Version 1.8.0.dev4
+
+- tiny change in variable names
+
+### Version 1.8.0.dev3
 
 - Added key control for browsing sites like in less.
 
-### Version 1.8.0-snapshot2
+### Version 1.8.0.dev2
 
 - Added alternate screen for pages
 
-### Version 1.8.0-snaphot1
+### Version 1.8.0.dev1
 
 - Added "printer" function
 
