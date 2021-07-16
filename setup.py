@@ -5,12 +5,16 @@ setup.py is the Akasia setup file.
 from setuptools import setup
 import akasia
 
+# pylint settings:
+# pylint: disable=C0301
+
 setup(
     version=akasia.VERSION,
     license="MIT License",
     name='Akasia',
     author='Robrecht De Rouck',
-    author_email='Robrecht.De.Rouck@gmail.com',
+    author_email='de.rouck.robrecht@gmail.com',
+    # email address from commit https://github.com/robrechtdr/inonemonth/commit/34462c0176b98fa65d70d9dbbecf9049546329b7
     maintainer='RIDERIUS',
     maintainer_email='riderius.help@gmail.com',
     project_urls={
