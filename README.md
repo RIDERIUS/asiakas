@@ -1,6 +1,6 @@
 # Akasia
 
-![license](https://img.shields.io/github/license/RIDERIUS/Akasia?style=for-the-badge) ![Downloads](https://img.shields.io/pypi/dm/Akasia?style=for-the-badge) ![rank](https://img.shields.io/librariesio/sourcerank/pypi/Akasia?style=for-the-badge) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Akasia?style=for-the-badge)
+![license](https://img.shields.io/github/license/RIDERIUS/Akasia?style=for-the-badge) ![Downloads](https://img.shields.io/pypi/dm/Akasia?style=for-the-badge) ![rank](https://img.shields.io/librariesio/sourcerank/pypi/Akasia?style=for-the-badge) [![CodeFactor](https://www.codefactor.io/repository/github/riderius/akasia/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/riderius/akasia?style=for-the-badge) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Akasia?style=for-the-badge)
 
 Hi, **Akasia** - A fork tiny python text-based web browser [Asiakas](https://github.com/robrechtdr/asiakas).
 
