@@ -2,6 +2,11 @@
 
 ## Version 1.8.0
 
+### Version 1.8.0.dev5
+
+- fix #37
+- Conform pep8
+
 ### Version 1.8.0.dev4
 
 - tiny change in variable names
